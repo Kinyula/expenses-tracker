@@ -62,6 +62,7 @@ const handleTransactionSubmitted = (transactionData) => {
   toast.success("Transaction added...");
 };
 
+
 const handleTransactionDeleted = (id) => {
   transactions.value = transactions.value.filter((transaction) => {
     return transaction.id !== id;
